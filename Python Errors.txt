@@ -1,0 +1,71 @@
+Operating system Information:
+Current Operating system  : -  Windows 10 pro
+System type:- 64-Bit Operating System
+Pc Model - Dell Latitude E6410
+
+
+Installation Path :- C:/Python38 and D:/Python38
+
+Error At time Installation on new Module in Python
+First Version above 3.x.x comes with pip inbuild installation but at the time of installation i Also checked pip checkbox it show pip installed.
+
+but in path where python was installed there is no pip files is present. I change DIR(Path) of Installation but it not work as well as search in everywhere (as Internet, FaceBook group, whatsapp group, stackoverflow and quora) but i hadn't
+
+Error:
+
+ Traceback (most recent call last):
+  File "get-pip.py", line 23687, in <module>
+    main()
+  File "get-pip.py", line 198, in main
+    bootstrap(tmpdir=tmpdir)
+  File "get-pip.py", line 83, in bootstrap
+    from pip._internal.commands.install import InstallCommand
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 618, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "C:\Users\RUSHIK~1\AppData\Local\Temp\tmpgvgyjnbe\pip.zip\pip\_internal\commands\install.py", line 17, in <module>
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 618, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "C:\Users\RUSHIK~1\AppData\Local\Temp\tmpgvgyjnbe\pip.zip\pip\_internal\cli\req_command.py", line 16, in <module>
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 618, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "C:\Users\RUSHIK~1\AppData\Local\Temp\tmpgvgyjnbe\pip.zip\pip\_internal\index\collector.py", line 14, in <module>
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 618, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "C:\Users\RUSHIK~1\AppData\Local\Temp\tmpgvgyjnbe\pip.zip\pip\_vendor\requests\__init__.py", line 125, in <module>
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 618, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "C:\Users\RUSHIK~1\AppData\Local\Temp\tmpgvgyjnbe\pip.zip\pip\_vendor\requests\utils.py", line 27, in <module>
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 618, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "C:\Users\RUSHIK~1\AppData\Local\Temp\tmpgvgyjnbe\pip.zip\pip\_vendor\requests\_internal_utils.py", line 11, in <module>
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 618, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "C:\Users\RUSHIK~1\AppData\Local\Temp\tmpgvgyjnbe\pip.zip\pip\_vendor\requests\compat.py", line 65, in <module>
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 915, in get_code
+  File "<frozen importlib._bootstrap_external>", line 973, in get_data
+OSError: [Errno 9] Bad file descriptor
